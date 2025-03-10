@@ -78,7 +78,7 @@ function App() {
           .insert([{
             installation_type: formData.installationType,
             state: formData.state,
-            annual_bill: formData.annualBill, // Agora enviamos o valor mensal direto
+            annual_bill: formData.annualBill,
             phone: cleanPhoneNumber(formData.phone),
             qualify_lead: isDisqualified ? 'desqualificado' : 'qualified'
           }]);
