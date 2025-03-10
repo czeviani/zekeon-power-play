@@ -1,3 +1,4 @@
+
 export type InstallationType = 'business' | 'residential';
 
 export type Region = {
