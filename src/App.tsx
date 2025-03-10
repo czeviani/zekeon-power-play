@@ -113,7 +113,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Progress indicator */}
       {currentStep > 0 && currentStep < 5 && (
         <div className="fixed top-0 left-0 right-0 z-10">
           <div className="flex h-1">
@@ -129,7 +128,6 @@ function App() {
         </div>
       )}
 
-      {/* Back button */}
       {currentStep > 0 && currentStep < 5 && (
         <button
           onClick={handleBack}
@@ -140,7 +138,6 @@ function App() {
         </button>
       )}
 
-      {/* Main content */}
       <div className="min-h-screen flex flex-col">
         <div className="flex-1 px-4 sm:px-6 md:px-8">
           {currentStep === 0 && (
@@ -360,7 +357,6 @@ function App() {
           )}
         </div>
 
-        {/* Fixed bottom button */}
         {(currentStep === 3 || currentStep === 4) && !showWarning && (
           <div className="fixed bottom-0 left-0 right-0 p-6 bg-black/90 backdrop-blur-md border-t border-gray-800/50">
             <div className="max-w-md mx-auto">

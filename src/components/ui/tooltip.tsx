@@ -3,7 +3,7 @@ import React, { createContext, useContext } from 'react';
 
 const TooltipContext = createContext({});
 
-export function Tooltip({ children }: { children: React.ReactNode }) {
+export function Tooltip({ children, delayDuration }: { children: React.ReactNode, delayDuration?: number }) {
   return <div className="relative inline-block">{children}</div>;
 }
 
