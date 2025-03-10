@@ -1,41 +1,55 @@
 
 export const REGIONS = [
   {
-    name: 'Sul',
-    states: ['Paraná', 'Rio Grande do Sul', 'Santa Catarina']
-  },
-  {
-    name: 'Sudeste',
-    states: ['Espírito Santo', 'Minas Gerais', 'Rio de Janeiro', 'São Paulo']
-  },
-  {
-    name: 'Centro-Oeste',
-    states: ['Distrito Federal', 'Goiás', 'Mato Grosso', 'Mato Grosso do Sul']
-  },
-  {
-    name: 'Nordeste',
+    name: 'Região Sul',
     states: [
-      'Alagoas',
-      'Bahia',
-      'Ceará',
-      'Maranhão',
-      'Paraíba',
-      'Pernambuco',
-      'Piauí',
-      'Rio Grande do Norte',
-      'Sergipe'
+      'Rio Grande do Sul',
+      'Santa Catarina',
+      'Paraná'
     ]
   },
   {
-    name: 'Norte',
+    name: 'Região Sudeste',
     states: [
-      'Acre',
-      'Amapá',
-      'Amazonas',
+      'São Paulo',
+      'Rio de Janeiro',
+      'Espírito Santo',
+      'Minas Gerais'
+    ]
+  },
+  {
+    name: 'Região Centro-Oeste',
+    states: [
+      'Mato Grosso',
+      'Mato Grosso do Sul',
+      'Goiás',
+      'Distrito Federal'
+    ]
+  },
+  {
+    name: 'Região Nordeste',
+    states: [
+      'Bahia',
+      'Sergipe',
+      'Alagoas',
+      'Pernambuco',
+      'Paraíba',
+      'Rio Grande do Norte',
+      'Ceará',
+      'Piauí',
+      'Maranhão'
+    ]
+  },
+  {
+    name: 'Região Norte',
+    states: [
+      'Tocantins',
       'Pará',
-      'Rondônia',
+      'Amapá',
       'Roraima',
-      'Tocantins'
+      'Amazonas',
+      'Acre',
+      'Rondônia'
     ]
   }
 ];

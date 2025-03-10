@@ -121,7 +121,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {currentStep > 0 && currentStep < 5 && <ProgressBar currentStep={currentStep} totalSteps={4} />}
+      {currentStep > 0 && currentStep < 5 && <ProgressBar currentStep={currentStep - 1} totalSteps={4} />}
       {currentStep > 0 && currentStep < 5 && <BackButton onClick={handleBack} />}
 
       <div className="min-h-screen flex flex-col">

@@ -1,14 +1,9 @@
 
-export type InstallationType = 'business' | 'residential';
+export type InstallationType = 'residential' | 'business';
 
-export type Region = {
-  name: string;
-  states: string[];
-};
-
-export type FormData = {
+export interface FormData {
   installationType: InstallationType;
   state: string;
   annualBill: number;
   phone: string;
-};
+}
