@@ -2,6 +2,8 @@
 import React from 'react';
 import App from '../App';
 
-export default function Index() {
+const Index = () => {
   return <App />;
-}
+};
+
+export default Index;
