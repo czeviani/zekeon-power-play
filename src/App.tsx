@@ -28,7 +28,7 @@ function cleanPhoneNumber(phone: string) {
 function App() {
   const [currentStep, setCurrentStep] = useState(0);
   const [formData, setFormData] = useState<FormData>({
-    installationType: '',
+    installationType: 'residential',
     state: '',
     annualBill: 0,
     phone: ''
@@ -89,7 +89,7 @@ function App() {
           setShowWarning(true);
         } else {
           setFormData({
-            installationType: '',
+            installationType: 'residential',
             state: '',
             annualBill: 0,
             phone: ''
